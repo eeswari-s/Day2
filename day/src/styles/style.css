@@ -1,0 +1,77 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: #0f2d3a;
+    color: white;
+}
+
+.navbar ul{
+    display: flex;
+    gap:30px;
+    list-style: none;
+}
+
+/*products*/
+.products{
+    padding:60px;
+    text-align: center;
+
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, 1fr));
+    gap:30px;
+    margin-top: 30px;
+}
+
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px black;
+}
+.card img{
+    width: 100%;
+    border-radius: 14px;
+}
+.price{
+    font-weight: bold;
+    margin: 10px 0;
+}
+.card button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #db7a0b;
+    color: white;
+    cursor: pointer;
+}
+/*About*/
+.about{
+    padding: 60px;
+    background: rgb(17, 17, 78);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+}
+
+/*contact*/
+.contact{
+        padding: 60px;
+    background: rgb(134, 134, 185);
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+
+/*footer*/
+.footer{
+       padding: 60px;
+    background: rgb(23, 23, 16);
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;  
+}
