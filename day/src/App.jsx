@@ -7,13 +7,14 @@ import Contact from './Components/Contact.jsx';
 import Footer from './Components/Footer.jsx';
 
 function App() {
+      const message="hello";
   return (
     <div>
       <Navbar />
       <Products />
       <About/>
       <Contact />
-      <Footer />
+      <Footer text={message}/>
     </div>
   )
 }
